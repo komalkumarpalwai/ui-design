@@ -8,4 +8,5 @@ void main(List<String> arguments) {
   print('color none: ${lab3_switchcase.sr('none')}');
   
   lab3_switchcase.sv();
+  lab3_switchcase.choosing();
 }
