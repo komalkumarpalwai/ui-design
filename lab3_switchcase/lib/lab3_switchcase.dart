@@ -27,4 +27,16 @@ void sv() {
 
   print('Output: $x');
 }
-
+void choosing(){
+  print("choose 1 or 2");
+  int x=int.parse(stdin.readLineSync()!);
+  switch (x){
+    case 0:
+    print('before');
+     continue foo;
+    foo:
+    case 1:
+     print("after continuee...");
+    break;
+  }
+}
